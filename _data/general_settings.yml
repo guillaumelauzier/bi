@@ -11,7 +11,7 @@ black_logo_2x: "/assets/images/logo@2x.png"
 light_logo_1x: "/assets/images/logo-light.png"
 light_logo_2x: "/assets/images/logo-light@2x.png"
 
-address_01: 'Rue du Rhône 100, <br>1204 Geneva,<br /> Switzerland'
+address_01: 'Rue du Rhône 100 <br>1204 Geneva<br /> Switzerland'
 phone_number: "+41 76 585 5979"
 copyright_text: "© 2024 Axal Ventures SA. All rights reserved."
 
@@ -25,20 +25,14 @@ google_map: |
 social_accounts:
   title: "Follow Us"
   links:
-    - url: "#"
+    - url: "https://x.com/AxalGlobal"
       icon: "jam jam-twitter"
 
     - url: "#"
       icon: "jam jam-facebook"
 
-    - url: "#"
-      icon: "jam jam-instagram"
-
-    - url: "#"
-      icon: "jam jam-vimeo"
-      
-    - url: "#"
-      icon: "jam jam-youtube"
+    - url: "https://www.linkedin.com/company/axalglobal"
+      icon: "jam jam-linkedin"
 
 
 external_links:
