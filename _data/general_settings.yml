@@ -76,7 +76,7 @@ external_links_03:
   links:
     - url: "#"
       text: "Our Team"
-    - url: "#"
+    - url: "/team"
       text: "Strategy"
     - url: "#"
       text: "Service"
@@ -93,8 +93,8 @@ footer_newsletter:
 
 one_page_nav_settings:
   links:
-    - text: "Team"
-      url: "#home"
+    - text: "Our Team"
+      url: "/team"
     - text: "Philosophy"
       url: "#services"
     - text: "Companies"
