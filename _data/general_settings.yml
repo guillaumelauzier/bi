@@ -3,17 +3,16 @@ title: "Axal SA"
 email: "tortoizthemes@gmail.com"
 email_2: "support@tortoizthemes.com"
 description: >- # this means to ignore newlines until "baseurl:"
-  Snowlake is a multi-concept and powerful site template contains 
-  rich layouts with possibility of unlimited combinations & beautiful elements.
+  Axal SA is a venture capital firm supporting tech startups with sustainable solutions, providing funding, resources, and global partnerships to drive innovation and growth.
 
 black_logo_1x: "/assets/images/logo.png"
 black_logo_2x: "/assets/images/logo@2x.png"
 light_logo_1x: "/assets/images/logo-light.png"
 light_logo_2x: "/assets/images/logo-light@2x.png"
 
-address_01: 'Rue du Rhône 100 <br>1204 Geneva<br /> Switzerland'
-phone_number: "+41 76 585 5979"
-copyright_text: "© 2024 Axal Ventures SA. All rights reserved."
+address_01: 'Rue Robert-Céard 6 <br>1204 Geneva<br /> Switzerland'
+phone_number:
+copyright_text: "© 2024 Axal SA. All rights reserved."
 
 google_analytics:
   enable: true
