@@ -99,7 +99,7 @@ one_page_nav_settings:
     - text: "Insights"
       url: "#portfolio"
     - text: "Ops"
-      url: "#testimonials"
+      url: "https://axal.io"
     - text: "Connect"
       url: "#contact"
 
