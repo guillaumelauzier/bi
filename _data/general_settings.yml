@@ -40,16 +40,14 @@ social_accounts:
 external_links:
   title: "Learn More"
   links:
-    - url: "#"
+    - url: "/team"
       text: "Our Team"
+    - url: "https://axal.io"
+      text: "Operations"
     - url: "#"
-      text: "Insig"
+      text: "Insights"
     - url: "#"
       text: "Projects"
-    - url: "#"
-      text: "Pricing"
-    - url: "#"
-      text: "Features"
 
 
 external_links_02:
