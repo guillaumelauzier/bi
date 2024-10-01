@@ -94,6 +94,8 @@ one_page_nav_settings:
       url: "/team"
     - text: "Philosophy"
       url: "#services"
+    - text: "Our Product"
+      url: "#process"
     - text: "Companies"
       url: "#experiences"
     - text: "Insights"
