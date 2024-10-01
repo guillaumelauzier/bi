@@ -1,7 +1,7 @@
 # General Settings
 title: "Axal SA"
-email: "tortoizthemes@gmail.com"
-email_2: "support@tortoizthemes.com"
+email:
+email_2:
 description: >- # this means to ignore newlines until "baseurl:"
   Axal SA is a venture capital firm supporting tech startups with sustainable solutions, providing funding, resources, and global partnerships to drive innovation and growth.
 
