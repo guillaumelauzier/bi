@@ -95,8 +95,6 @@ one_page_nav_settings:
       url: "#process"
     - text: "Insights"
       url: "#portfolio"
-    - text: "Ops"
-      url: "https://axal.io"
     - text: "Connect"
       url: "#contact"
 
