@@ -44,7 +44,7 @@ external_links:
       text: "Our Team"
     - url: "https://axal.io"
       text: "Operations"
-    - url: "#"
+    - url: "/blog/"
       text: "Insights"
     - url: "#"
       text: "Projects"
