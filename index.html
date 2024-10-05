@@ -17,6 +17,11 @@ cover_image_one:
     image: "/assets/images/art/bg27.jpg"
     title: "cover image title"
 
+call_to_action:
+    enable: true
+    title: "I take photographs with creativity, concept & passion"
+    bg_image: "/assets/images/art/bg27.jpg"
+
 features_area:
   enable: true
   title: "Philosophy"
@@ -136,7 +141,20 @@ contact_area:
     <figure class="cover">
         <img src="{{page.cover_image_one.image}}" alt="{{page.cover_image_one.title}}" />
     </figure>
-    {% endif %} 
+    {% endif %}
+    {% if page.call_to_action.enable %}
+    <div class="wrapper image-wrapper bg-image inverse-text" data-image-src="{{page.call_to_action.bg_image}}">
+    <div class="container inner pt-150 pb-150">
+        <div class="row">
+        <div class="col-md-8 mx-auto">
+            <h2 class="display-1 mb-0 text-center">
+            {{page.call_to_action.title}}
+            </h2>
+        </div>
+        </div>
+    </div>
+    </div>
+    {% endif %}
     {% if page.features_area.enable %}
     <section id="services">
         <div class="wrapper white-wrapper">
