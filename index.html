@@ -24,13 +24,13 @@ features_area:
 
 process_area:
   enable: true
-  title: "Meet Alex"
-  sub_title: "Alex helps investors and entrepreneurs make smarter decisions by asking the right questions and creating personalized profiles."
+  title: "Meet Leo"
+  sub_title: "Leo helps investors and entrepreneurs make smarter decisions by asking the right questions and creating personalized profiles."
   image: "/assets/images/concept/concept1@2x.png"
   lists:
 
     - title: "Personalized Profiles"
-      description: "Alex tailors questions to create profiles that help investors and entrepreneurs achieve their goals."
+      description: "Leo tailors questions to create profiles that help investors and entrepreneurs achieve their goals."
       icon: "jam jam-lightbulb"
       icon_color: "blue"
 
@@ -40,7 +40,7 @@ process_area:
       icon_color: "teal"
 
     - title: "Tailored Experience"
-      description: "Alex provides actionable insights based on your unique preferences."
+      description: "Leo provides actionable insights based on your unique preferences."
       icon: "jam jam-heart"
       icon_color: "yellow"
 
@@ -403,56 +403,6 @@ contact_area:
         <img src="{{page.cover_image_three.image}}" alt="{{page.cover_image_three.title}}" />
     </figure>
     {% endif %}
-    <section id="pricing">
-        <div class="wrapper light-wrapper">
-            <div class="container">
-                <div class="space20"></div>
-                {% assign pricing_data = page.pricing_table %}
-                {% if pricing_data.enable %}
-                <div class="row">
-                    <div class="col-lg-5 pr-50 pr-md-15">
-                        <h2 class="title-color color-gray">{{pricing_data.title}}</h2>
-                        <h3 class="display-3">{{pricing_data.sub_title}}</h3>
-                        <div class="space20"></div>
-                        <p>{{pricing_data.description}}</p>
-                        <div class="space10"></div>
-                        {% if pricing_data.pricing_url %}
-                        <a href="{{pricing_data.pricing_url}}" class="btn">See All Prices</a>
-                        {% endif %}
-                    </div>
-                    <!--/column -->
-                    <div class="space70 d-none d-md-block d-lg-none"></div>
-                    <div class="space20 d-md-none"></div>
-                    <div class="col-lg-7">
-                        <div class="pricing-wrapper">
-                            <div class="row no-gutters">
-                                {% for pricing in pricing_data.plans %}
-                                <div class="col-md-6">
-                                    <div class="pricing panel box bg-white shadow">
-                                        <div class="panel-heading">
-                                            <div class="prices color-dark">
-                                                <div class="price price-show"><span class="price-currency">$</span><span class="price-value">{{pricing.monthly_price}}</span> <span class="price-duration">month</span></div>
-                                            </div>
-                                            <h4 class="panel-title mb-0">{{pricing.title}}</h4>
-                                        </div>
-                                        <div class="panel-body">
-                                            <table class="table">
-                                                {% for features in pricing.features %}
-                                                <tr>
-                                                    <td>{{features}}</td>
-                                                </tr>
-                                                {% endfor %}
-                                            </table>
-                                        </div>
-                                        <div class="panel-footer"><a href="{{pricing.pricing_url}}" class="btn" role="button">Choose Plan</a></div>
-                                    </div>
-                                </div>
-                                {% endfor %}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {% endif %}
                 <div class="space140"></div>
                 {% if page.faq_area.enable %}
                 <div class="row">
