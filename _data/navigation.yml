@@ -1,16 +1,14 @@
 main_menu:
 
-  - text: "About"
+  - text: "Home"
     url: "/"
 
   - text: "Team"
-    url: "/"
+    url: "/team"
 
-  - text: "Portfolio"
-    url: "/portfolios/"
 
   - text: "Ops"
-    url: "/"
+    url: "https://axal.io"
 
   - text: "Insight"
     url: "/"
